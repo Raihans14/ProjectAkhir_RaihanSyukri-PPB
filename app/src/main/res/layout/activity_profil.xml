@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru"
+    tools:context=".Profil">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFIL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="40dp"
+        android:fontFamily="@font/jandamanateesolid"
+        android:textColor="@color/black"
+        android:id="@+id/judul_pro"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profilapl"
+        android:layout_below="@+id/judul_pro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo_p"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/judul_pro"
+        android:padding="60dp"
+        android:layout_marginTop="250dp"
+        android:id="@+id/ly3">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="EDIT PROFILE"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:width="280dp"
+            android:backgroundTint="@color/birumuda"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="LOG OUT"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:width="280dp"
+            android:backgroundTint="@color/birumuda"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

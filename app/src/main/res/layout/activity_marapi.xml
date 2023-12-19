@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru"
+    tools:context=".Sago">
+    <TextView
+        android:id="@+id/marapi_txt1"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="GUNUNG MARAPI"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_header1"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/marapi_gambar1"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/marapi"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/marapi_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_below="@+id/marapi_gambar1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/marapi_txt3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/marapi_txt2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_deskripsi"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="Gunung Singgalang merupakan sebuah gunung yang terdapat di provinsi Sumatera Barat, Indonesia dengan ketinggian 2,877 meter.Dari bentuknya, gunung ini sangat mirip dengan Gunung Merbabu di Jawa Tengah. Gunung ini masih aktif namun tak lagi seaktif sebelum erupsi terakhir pada 1981 dan mempunyai telaga di puncaknya yang merupakan bekas kawah, Telaga ini dinamai Telaga Dewi. Gunung Singgalang mempunyai kawasan hutan gunung yang sangat lembap serta memiliki kandungan air yang banyak."
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+</RelativeLayout>
